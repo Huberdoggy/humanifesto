@@ -1,4 +1,4 @@
-# 🧒 Humanifesto
+# 🧒 Humanifesto 🍿
 
 Humanifesto is a Stremio add-on that makes *"what should I watch next?"* feel human again; no extra accounts, no Trakt/IMDB scraping, no infinite feed. Just tell it what you loved, and it returns a small, hand-picked list of films and shows that match the vibe, not the algorithm.
 
@@ -10,8 +10,21 @@ Humanifesto is a Stremio add-on that makes *"what should I watch next?"* feel hu
 
 ---
 
+## 🛠️ Setup
+
+Codex TODO - clone repo, npm initialization, etc.
+
+---
+
 ## 🛠️ Backend Commands (Local Testing)
 
+Codex TODO - Prettify this and enumerate an explanation of the available launch methods if using serveHTTP:
+
+```
+npm start -- --launch
+alternatively
+npm start -- --install
+```
 
 
 ## 👤 Authorship and Use

@@ -1,5 +1,3 @@
-# Humanifesto – AGENTS.md  
-
 ## Introduction  
 
 Richard,  
@@ -36,15 +34,17 @@ This section is your production map. When in doubt, return here, then cross-refe
    - All Humanifesto implementation work lives under the root-level `addon/` directory.  
    - Within `addon/`, you will find (or create) the following subdirectories:  
      - `addon/artwork/` – visual identity assets  
-       - `humanifesto_logo_fullsize.png`  
-       - `favicon.png`  
-       - `manifest_logo.png`  
+       - [humanifesto_logo_fullsize](./addon/artwork/humanifesto_logo_fullsize.png)  
+       - [favicon.png](./addon/artwork/favicon.png)  
+       - [manifest_logo.png](./addon/artwork/manifest_logo.png)  
        - The **specific usage, sizing, and placement** of each asset (config UI hero image vs. Stremio manifest logo vs. favicon) is **further detailed in** `addon/milestones/`. Treat those instructions as binding.  
      - `addon/milestones/` – your compendiums and living blueprints  
-       - `humanifesto_config_ui_spec.md`  
+       - [humanifesto_config_ui_spec.md](./addon/milestones/humanifesto_config_ui_spec.md)  
          - Describes the standalone configuration page experience (the “red carpet” where the user sets knobs and leaves with a valid manifest URL).  
-       - `humanifesto_v1_system_design.md`  
-         - Describes the end-to-end Humanifesto architecture: inputs, corpus, scoring, and how it all plugs into the Stremio add-on SDK.  
+       - [humanifesto_v1_system_design.md](./addon/milestones/humanifesto_v1_system_design.md)  
+         - Describes the end-to-end Humanifesto architecture: inputs, corpus, scoring, and how it all plugs into the Stremio add-on SDK.
+       - [humanifesto_dev_artwork_note.md](./addon/milestones/humanifesto_dev_artwork_note.md)
+         - Outlines the procedures needed to ascertain artwork is properly served and displayed when testing locally.   
        - In practice, **AGENTS.md is your narrative charter**; the milestone files are the scene-by-scene shooting script. Always reconcile them before making structural changes.
 
 2. **Stremio SDK as Canon**  
@@ -52,7 +52,7 @@ This section is your production map. When in doubt, return here, then cross-refe
    - Use the MCP inspector to introspect the `/stremio/stremio-addon-sdk` context:  
 
      ```bash
-     npx -y @modelcontextprotocol/inspector --cli        npx @upstash/context7-mcp
+     npx -y @modelcontextprotocol/inspector --cli npx @upstash/context7-mcp
      ```
 
    - Within that inspector, ensure you are consulting the **`/stremio/stremio-addon-sdk` library** for:  
@@ -81,9 +81,9 @@ This section is your production map. When in doubt, return here, then cross-refe
 
 5. **Artwork & Identity Integration**  
    - When wiring artwork into the UI and manifest, follow the constraints laid down in the milestone docs:  
-     - `humanifesto_logo_fullsize.png` – used where you have ample real estate to sell the “private premiere” fantasy (e.g., hero image for the config UI).  
-     - `manifest_logo.png` – optimized for Stremio’s manifest/logo usage where clarity at small sizes matters more than flourish.  
-     - `favicon.png` – the smallest, most legible brand mark for browser tabs and shortcut icons.  
+     - [humanifesto_logo_fullsize.png](./addon/artwork/humanifesto_logo_fullsize.png) – used where you have ample real estate to sell the “private premiere” fantasy (e.g., hero image for the config UI).  
+     - [manifest_logo.png](./addon/artwork/manifest_logo.png)– optimized for Stremio’s manifest/logo usage where clarity at small sizes matters more than flourish.  
+     - [favicon.png](./addon/artwork/favicon.png) – the smallest, most legible brand mark for browser tabs and shortcut icons.  
    - In every context, the visuals should quietly reinforce the promise: curated, cinematic recommendations, not a generic SaaS widget.
 
 ---

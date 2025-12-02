@@ -1,5 +1,4 @@
-
-# Humanifesto – Dev Artwork Serving Note (for Codex)
+# Dev Artwork Serving Note (for Codex)
 
 > **Context**: This note supplements the existing Humanifesto v1 system design and UI specs.  
 > **Scope**: How to serve local artwork correctly in a non-hosted / localhost v1 dev scenario.
@@ -8,9 +7,9 @@
 
 Artwork files are expected to live under the `addon/artwork/` directory, for example:
 
-- `addon/artwork/manifest_logo.png`  → 256×256 icon used for the Stremio add-on manifest logo (`manifest.logo`).  
-- `addon/artwork/favicon.png`        → 32×32 (or similar) favicon for the config UI page.  
-- `addon/artwork/humanifesto_logo_full.png` → larger hero image used in the config UI header.
+- [manifest_logo.png](../artwork/manifest_logo.png) → 256×256 icon used for the Stremio add-on manifest logo.  
+- [favicon.png](../artwork/favicon.png) → 32×32 (or similar) favicon for the config UI page.  
+- [humanifesto_logo_fullsize.png](../artwork/humanifesto_logo_fullsize.png) → larger hero image used in the config UI.
 
 You may assume this structure already exists or will be created accordingly.
 

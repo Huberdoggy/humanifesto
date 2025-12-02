@@ -1,4 +1,3 @@
-// Is the below require supposed to resolve a nested TS file under ~/.cache ??
 const { serveHTTP, publishToCentral } = require("stremio-addon-sdk");
 const addonInterface = require("./addon");
 

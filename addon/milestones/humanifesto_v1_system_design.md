@@ -1,7 +1,5 @@
-
-# Humanifesto v1 – System Design (Milestone Spec)
-
-> **Milestone Location Suggestion**: place this file under `milestones/Humanifesto_v1_System_Design.md` in the repo.  
+# v1 System Design Spec
+ 
 > **Role**: this document is the *implementation blueprint* referenced by `AGENTS.md`, not a replacement for it.
 
 ---
@@ -21,7 +19,7 @@
   - Streams and subtitles
 
 **Non-goals for v1**
-
+- No deployment (BeamUp, Heroku, etc.)
 - No runtime calls to TMDB / Trakt / IMDB APIs.
 - No user accounts, logins, or API keys.
 - No Humanifesto-managed streams or subtitles.
@@ -42,7 +40,7 @@
    - Independently calls other add-ons for streams/subtitles/extra metadata.
 
 2. **Humanifesto Add-on (Node.js + Stremio SDK)**
-   - Node service deployed on BeamUp or equivalent.
+   - Node service (v2+ - deployed on BeamUp or equivalent).
    - Uses `stremio-addon-sdk` to expose:
      - `manifest.json`
      - Catalog handlers for:
@@ -185,7 +183,7 @@ https://humanifesto.example.com/manifest.json
 
 ```jsonc
 {
-  "id": "com.kyle.humanifesto",
+  "id": "community.humanifesto",
   "version": "1.0.0",
   "name": "Humanifesto",
   "description": "Tell it what you loved, get a small, human-feeling list of films and shows that match the vibe.",
@@ -371,7 +369,7 @@ This design keeps:
   - Loads `corpus_v1.json` into memory on startup for fast scoring.
 
 - **Deployment**
-  - Preferred: BeamUp (per SDK recommendations), but any Node-capable host works.
+  - (v2+) Preferred: BeamUp (per SDK recommendations), but any Node-capable host works.
   - Environment variables for:
     - Host/port
     - Optional toggles (e.g. debug logging).
@@ -461,7 +459,7 @@ Examples:
      - Either refuse to start, or respond with a graceful error message (depending on chosen strategy).
    - Under no circumstance should it return malformed JSON to Stremio.
 
-### 9.3 Stremio Web Test (End-to-End)
+### 9.3 Stremio Web Test (End-to-End) - To Be Completed By Kyle
 
 **Focus**: real-world behavior in the official Stremio test environment.
 
@@ -480,8 +478,8 @@ Scenarios:
      - Background, poster, synopsis, and cast resolve via Cinemeta or other metadata addons.
      - Humanifesto itself does not need to provide extended meta for `tt` IDs in v1.
 
-3. **Streams from other providers**
-   - With a known stream provider add-on installed (e.g. a torrent-based addon), click through from a Humanifesto item.
+3. **Streams from other providers (v2+)**
+   - With a known stream provider add-on installed, click through from a Humanifesto item.
    - Confirm:
      - Streams are offered by the provider add-on as expected.
      - Humanifesto is not in the stream list, as it declares no `stream` resource.
@@ -507,5 +505,3 @@ Without exhaustively enumerating every combination, we aim to confirm Humanifest
   - Expect: scoring still produces coherent lists purely from genre/mode/weights.
 - **Highly expressive seed text**.
   - Expect: seed influence is noticeable but not overpowering; it should refine, not completely override, genre-based constraints.
-
-Meeting these criteria should be sufficient to consider Humanifesto v1 “ready for handoff” to Codex for implementation and, eventually, public testing—**without** falling into a combinatorial “bag of marbles” testing trap.

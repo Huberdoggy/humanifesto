@@ -1,5 +1,4 @@
-
-# Humanifesto – Red Carpet Config UI Spec (for Codex)
+# Red Carpet Config UI Spec
 
 > **Audience**: This document is written for the Codex implementation agent.  
 > **Purpose**: Describe the desired look, feel, and behavior of the Humanifesto configuration page so precisely that you, Codex, can _see_ the experience as if you were stepping out of a limo onto a Hollywood red carpet.
@@ -49,15 +48,14 @@ The page is a **single-screen experience** with a full-bleed background. Structu
 2. **Top bar (floating, subtle)**  
    - Stretches horizontally, anchored at the top.  
    - Background: semi-transparent dark strip (`rgba(0, 0, 0, 0.5)`), with a blur effect if feasible (`backdrop-filter: blur(10px)`).  
-   - Left side: Humanifesto “H” logo + wordmark.  
-   - Right side: two small text links, e.g.:
-     - `Docs`
-     - `View on GitHub`  
+   - Two small text links, sized proportionally, e.g.:
+     - [Stremio SDK Documentation](https://www.stremio.com/addon-sdk)
+     - View on [Github](https://www.github.com/Huberdoggy/humanifesto)  
    - These links are secondary; they should not outshine the main CTA in the form.
 
 3. **Hero strip (upper center)**  
    - Centered collection of:
-     - The Humanifesto logo badge.  
+     - The Humanifesto badge - *[opt for the larger size](../artwork/humanifesto_logo_fullsize.png).*  
      - The product name.  
      - A 1–2 sentence logline.
    - Keep this **above** the main card so the card doesn’t feel cramped.
@@ -72,8 +70,7 @@ The page is a **single-screen experience** with a full-bleed background. Structu
 
 5. **Footer strip (discreet)**  
    - A single line of small text near the bottom:  
-     - e.g. `Humanifesto v1 · A Stremio catalog add-on`  
-   - Optionally accompanied by a simple icon (e.g., popcorn, film reel).  
+     - e.g. `Humanifesto · A Stremio catalog add-on` accompanied by a simple icon (e.g., popcorn, film reel).  
    - Must not compete visually with the main CTA.
 
 ---
@@ -172,7 +169,7 @@ body {
 - Full width, anchored to top.  
 - Slight backdrop blur, translucent dark background.  
 - Content container centered and width-limited (e.g., `max-width: 960px; margin: 0 auto;`).  
-- Logo on the left, small links on the right.
+- Small links dispersed proportionally.
 
 ### 4.2 Hero Strip
 
@@ -180,10 +177,10 @@ Place this below the top bar, above the main card.
 
 Content:
 
-- Logo badge (the "H" icon) on left or center.  
+- Badge (the "H" icon) on left or center.  
 - To the right or below: name and logline.
 
-Sample copy (you can adjust, but keep the tone):
+Copy:
 
 - Title: `Humanifesto`  
 - Subtitle/logline:  

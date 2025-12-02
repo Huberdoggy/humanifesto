@@ -3,7 +3,7 @@
         "stremio-addon-sdk": "^1.6.10"
     },
     "scripts": {
-        "dev": "node addon/addon.js",
-        "start": "node addon/addon.js"
+        "dev": "node addon.js",
+        "start": "node addon.js"
     }
 }
