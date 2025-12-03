@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Humanifesto · Configure</title>
+  <link rel="icon" type="image/png" href="/artwork/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/config/styles.css">
+</head>
+<body>
+  <div class="bg-texture"></div>
+  <header class="top-bar">
+    <div class="top-bar__inner">
+      <div class="top-bar__links">
+        <a href="https://www.stremio.com/addon-sdk" target="_blank" rel="noreferrer">Stremio SDK Documentation</a>
+        <a href="https://www.github.com/Huberdoggy/humanifesto" target="_blank" rel="noreferrer">View on Github</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <img class="hero__logo" src="/artwork/humanifesto_logo_fullsize.png" alt="Humanifesto">
+      <div class="hero__copy">
+        <h1>Humanifesto</h1>
+        <p>Tell us what you loved. We’ll roll out a small, hand-picked list that matches the vibe — no accounts, no watchlist scraping.</p>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card__content">
+        <div class="card__form">
+          <form id="config-form">
+            <div class="field">
+              <label for="primaryGenre">Primary genre</label>
+              <select id="primaryGenre" name="primaryGenre" required></select>
+            </div>
+
+            <div class="field">
+              <label for="secondaryGenre">Secondary genre (optional)</label>
+              <p class="field__helper">We’ll sprinkle this in when it makes sense.</p>
+              <select id="secondaryGenre" name="secondaryGenre"></select>
+            </div>
+
+            <div class="field">
+              <label for="exclude">Hard no</label>
+              <p class="field__helper">Types of stories you don’t want in tonight’s lineup.</p>
+              <select id="exclude" name="exclude"></select>
+            </div>
+
+            <div class="field">
+              <label>Tone of the night</label>
+              <div class="segmented" id="modeSwitch">
+                <button type="button" data-mode="canon" class="segmented__option segmented__option--active">
+                  <span class="segmented__title">Canon</span>
+                  <span class="segmented__helper">Critical darlings &amp; consensus favorites.</span>
+                </button>
+                <button type="button" data-mode="oddities" class="segmented__option">
+                  <span class="segmented__title">Oddities</span>
+                  <span class="segmented__helper">Stranger, rarer picks that still fit the vibe.</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="seed">What did you love, really?</label>
+              <p class="field__helper">Optional — describe a movie or show you loved in 1–3 sentences. Think pacing, tension, humor, setting.</p>
+              <div class="textarea-wrapper">
+                <textarea id="seed" name="seed" rows="4" maxlength="300" placeholder="Minimal dialogue, lots of stalking, zero Marvel-style quips."></textarea>
+                <span class="char-counter" id="charCounter">0 / 300</span>
+              </div>
+            </div>
+
+            <div class="actions">
+              <button type="button" class="cta" id="installBtn">Install in Stremio</button>
+              <div class="actions__secondary">
+                <button type="button" class="text-button" id="copyBtn">Copy manifest URL</button>
+                <button type="button" class="text-button" id="resetBtn">Reset form</button>
+              </div>
+            </div>
+
+            <div class="manifest-preview" id="manifestPreview">
+              <div class="manifest-preview__title">Manifest URL</div>
+              <div class="manifest-preview__url" id="manifestUrlText"></div>
+              <div class="manifest-preview__hint">If Stremio didn’t open automatically, paste this URL into Add-ons → Add via URL.</div>
+            </div>
+          </form>
+        </div>
+
+        <div class="card__ambience">
+          <div class="poster-wall">
+            <div class="poster poster--a"></div>
+            <div class="poster poster--b"></div>
+            <div class="poster poster--c"></div>
+            <div class="poster poster--d"></div>
+          </div>
+          <div class="lineup">
+            <div class="lineup__title">Tonight’s sample lineup</div>
+            <div class="lineup__item">
+              <div class="skeleton skeleton--title"></div>
+              <div class="chips">
+                <span class="chip">Thriller</span>
+                <span class="chip">Sci-Fi</span>
+              </div>
+            </div>
+            <div class="lineup__item">
+              <div class="skeleton skeleton--title"></div>
+              <div class="chips">
+                <span class="chip">Drama</span>
+                <span class="chip">Mystery</span>
+              </div>
+            </div>
+            <div class="lineup__item">
+              <div class="skeleton skeleton--title"></div>
+              <div class="chips">
+                <span class="chip">Horror</span>
+                <span class="chip">Folk</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>Humanifesto · A Stremio catalog add-on</span>
+    </footer>
+  </main>
+
+  <script src="/config/app.js"></script>
+</body>
+</html>

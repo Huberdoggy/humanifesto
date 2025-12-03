@@ -1,11 +1,42 @@
-const { serveHTTP, publishToCentral } = require("stremio-addon-sdk");
-const addonInterface = require("./addon");
+const path = require("path");
+const express = require("express");
+const { getRouter } = require("stremio-addon-sdk");
+const { createAddonInterface } = require("./addon");
 
 const PORT = process.env.PORT || 7000;
+const BASE_URL = process.env.BASE_URL || `http://localhost:${PORT}`;
 
-serveHTTP(addonInterface, { port: PORT });
+const app = express();
 
-console.log(`Humanifesto addon listening on http://localhost:${PORT}/manifest.json`);
+// Serve local artwork and config UI assets
+app.use(
+  "/artwork",
+  express.static(path.join(__dirname, "artwork"), {
+    maxAge: "1d"
+  })
+);
+app.use(
+  "/config",
+  express.static(path.join(__dirname, "config"), {
+    maxAge: "1d"
+  })
+);
 
-// If/when addon is deployed, un-comment the next line
-// publishToCentral("https://my-addon.awesome/manifest.json")
+app.get("/", (_req, res) => {
+  res.redirect("/configure");
+});
+
+app.get("/configure", (_req, res) => {
+  res.sendFile(path.join(__dirname, "config", "index.html"));
+});
+
+const addonInterface = createAddonInterface({ baseUrl: BASE_URL });
+
+// Mount Stremio router after static/config routes
+app.use(getRouter(addonInterface));
+
+app.listen(PORT, () => {
+  console.log(`Humanifesto dev server at ${BASE_URL}`);
+  console.log(`Manifest: ${BASE_URL}/manifest.json`);
+  console.log(`Logo:     ${BASE_URL}/artwork/manifest_logo.png`);
+});

@@ -1,9 +1,10 @@
 {
     "dependencies": {
+        "express": "^4.19.2",
         "stremio-addon-sdk": "^1.6.10"
     },
     "scripts": {
-        "dev": "node addon.js",
-        "start": "node addon.js"
+        "dev": "node server.js",
+        "start": "node server.js"
     }
 }

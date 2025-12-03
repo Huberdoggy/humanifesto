@@ -2,6 +2,7 @@
 .vscode/
 .codex/
 manifest_object_template.js
+.npm-cache/
 
 # Logs
 logs

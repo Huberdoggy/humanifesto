@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "tt0068646",
+    "type": "movie",
+    "title": "The Godfather",
+    "year": 1972,
+    "genres": ["Crime", "Drama"],
+    "tags": ["mafia", "family saga", "power struggle", "loyalty", "betrayal"],
+    "director": "Francis Ford Coppola",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.98,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0071562",
+    "type": "movie",
+    "title": "The Godfather Part II",
+    "year": 1974,
+    "genres": ["Crime", "Drama"],
+    "tags": ["mafia", "dual timelines", "family", "betrayal", "legacy"],
+    "director": "Francis Ford Coppola",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.96,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0060196",
+    "type": "movie",
+    "title": "The Good, the Bad and the Ugly",
+    "year": 1966,
+    "genres": ["Western", "Adventure", "War"],
+    "tags": ["spaghetti western", "antihero", "showdown", "civil war backdrop", "iconic score"],
+    "director": "Sergio Leone",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": false,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.87,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0078748",
+    "type": "movie",
+    "title": "Alien",
+    "year": 1979,
+    "genres": ["Horror", "Sci-Fi", "Thriller"],
+    "tags": ["claustrophobic", "space horror", "survival", "creature feature", "industrial"],
+    "director": "Ridley Scott",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.9,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0083658",
+    "type": "movie",
+    "title": "Blade Runner",
+    "year": 1982,
+    "genres": ["Sci-Fi", "Thriller", "Drama"],
+    "tags": ["neo-noir", "androids", "rain-soaked", "identity", "cyberpunk"],
+    "director": "Ridley Scott",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": true
+    },
+    "popularity_weight": 0.82,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0084787",
+    "type": "movie",
+    "title": "The Thing",
+    "year": 1982,
+    "genres": ["Horror", "Sci-Fi", "Thriller"],
+    "tags": ["antarctic", "paranoia", "body horror", "ensemble", "siege"],
+    "director": "John Carpenter",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": false,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.78,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0094625",
+    "type": "movie",
+    "title": "Akira",
+    "year": 1988,
+    "genres": ["Animation", "Sci-Fi", "Action"],
+    "tags": ["cyberpunk", "psychic", "post-apocalyptic", "motorcycle gangs", "body horror"],
+    "director": "Katsuhiro Otomo",
+    "vibe_flags": {
+      "slow_burn": false,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": true,
+      "experimental": true,
+      "surreal": true
+    },
+    "popularity_weight": 0.72,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0114369",
+    "type": "movie",
+    "title": "Se7en",
+    "year": 1995,
+    "genres": ["Crime", "Drama", "Mystery"],
+    "tags": ["serial killer", "rain-soaked", "detective", "moral dilemma", "procedural"],
+    "director": "David Fincher",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": false,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.9,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0116282",
+    "type": "movie",
+    "title": "Fargo",
+    "year": 1996,
+    "genres": ["Crime", "Thriller", "Drama"],
+    "tags": ["midwest noir", "kidnapping", "snowbound", "dark humor", "investigation"],
+    "director": "Joel Coen",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.84,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0113277",
+    "type": "movie",
+    "title": "Heat",
+    "year": 1995,
+    "genres": ["Crime", "Drama", "Thriller"],
+    "tags": ["heist", "cat and mouse", "ensemble", "LA", "professional criminals"],
+    "director": "Michael Mann",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": false,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.88,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0119698",
+    "type": "movie",
+    "title": "Princess Mononoke",
+    "year": 1997,
+    "genres": ["Animation", "Adventure", "Fantasy"],
+    "tags": ["forest spirits", "epic", "environmental", "samurai era", "mythic"],
+    "director": "Hayao Miyazaki",
+    "vibe_flags": {
+      "slow_burn": false,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": true
+    },
+    "popularity_weight": 0.86,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0317248",
+    "type": "movie",
+    "title": "City of God",
+    "year": 2002,
+    "genres": ["Crime", "Drama"],
+    "tags": ["favelas", "coming of age", "gang wars", "stylized", "narration"],
+    "director": "Fernando Meirelles",
+    "vibe_flags": {
+      "slow_burn": false,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.78,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0206634",
+    "type": "movie",
+    "title": "Children of Men",
+    "year": 2006,
+    "genres": ["Sci-Fi", "Drama", "Thriller"],
+    "tags": ["dystopia", "long takes", "refugees", "road", "bleak"],
+    "director": "Alfonso Cuarón",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.82,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0363988",
+    "type": "movie",
+    "title": "Collateral",
+    "year": 2004,
+    "genres": ["Crime", "Thriller", "Drama"],
+    "tags": ["night ride", "hitman", "cab driver", "neo-noir", "LA"],
+    "director": "Michael Mann",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": false,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.8,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0364569",
+    "type": "movie",
+    "title": "Oldboy",
+    "year": 2003,
+    "genres": ["Mystery", "Thriller", "Drama"],
+    "tags": ["revenge", "imprisonment", "twist", "hammer fight", "neo-noir"],
+    "director": "Park Chan-wook",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": true
+    },
+    "popularity_weight": 0.76,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0477348",
+    "type": "movie",
+    "title": "No Country for Old Men",
+    "year": 2007,
+    "genres": ["Crime", "Drama", "Thriller"],
+    "tags": ["cat and mouse", "texas", "fate", "assassin", "border"],
+    "director": "Joel Coen",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.9,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0443706",
+    "type": "movie",
+    "title": "Zodiac",
+    "year": 2007,
+    "genres": ["Crime", "Drama", "Mystery"],
+    "tags": ["investigation", "serial killer", "newspaper", "procedural", "obsession"],
+    "director": "David Fincher",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": false,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.82,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0482571",
+    "type": "movie",
+    "title": "The Prestige",
+    "year": 2006,
+    "genres": ["Drama", "Mystery", "Sci-Fi"],
+    "tags": ["rivalry", "stage magic", "twist", "obsession", "period piece"],
+    "director": "Christopher Nolan",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": true
+    },
+    "popularity_weight": 0.85,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0407887",
+    "type": "movie",
+    "title": "The Departed",
+    "year": 2006,
+    "genres": ["Crime", "Drama", "Thriller"],
+    "tags": ["undercover", "boston", "cat and mouse", "mob", "double life"],
+    "director": "Martin Scorsese",
+    "vibe_flags": {
+      "slow_burn": false,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": false,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.9,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0469494",
+    "type": "movie",
+    "title": "There Will Be Blood",
+    "year": 2007,
+    "genres": ["Drama"],
+    "tags": ["oil boom", "character study", "descent", "period piece", "capitalism"],
+    "director": "Paul Thomas Anderson",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.8,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0468569",
+    "type": "movie",
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genres": ["Action", "Crime", "Drama"],
+    "tags": ["vigilante", "anarchist", "heist", "moral dilemma", "urban chaos"],
+    "director": "Christopher Nolan",
+    "vibe_flags": {
+      "slow_burn": false,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": false,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.95,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0465538",
+    "type": "movie",
+    "title": "Michael Clayton",
+    "year": 2007,
+    "genres": ["Drama", "Thriller"],
+    "tags": ["fixer", "corporate thriller", "legal", "character study", "moral gray"],
+    "director": "Tony Gilroy",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.72,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt3397884",
+    "type": "movie",
+    "title": "Sicario",
+    "year": 2015,
+    "genres": ["Crime", "Drama", "Thriller"],
+    "tags": ["cartel", "border", "ambush", "moral ambiguity", "task force"],
+    "director": "Denis Villeneuve",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": false,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.83,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt2543164",
+    "type": "movie",
+    "title": "Arrival",
+    "year": 2016,
+    "genres": ["Drama", "Sci-Fi"],
+    "tags": ["first contact", "linguistics", "time loops", "melancholic", "parenthood"],
+    "director": "Denis Villeneuve",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": true
+    },
+    "popularity_weight": 0.85,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0470752",
+    "type": "movie",
+    "title": "Ex Machina",
+    "year": 2014,
+    "genres": ["Drama", "Sci-Fi", "Thriller"],
+    "tags": ["ai", "turing test", "isolated lab", "philosophical", "android"],
+    "director": "Alex Garland",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.78,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt2798920",
+    "type": "movie",
+    "title": "Annihilation",
+    "year": 2018,
+    "genres": ["Drama", "Sci-Fi", "Horror"],
+    "tags": ["shimmer", "mutation", "expedition", "surreal", "body horror"],
+    "director": "Alex Garland",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": true,
+      "surreal": true
+    },
+    "popularity_weight": 0.72,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0780504",
+    "type": "movie",
+    "title": "Drive",
+    "year": 2011,
+    "genres": ["Crime", "Drama", "Thriller"],
+    "tags": ["getaway", "synth", "neon", "stoic hero", "stylized violence"],
+    "director": "Nicolas Winding Refn",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.78,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt2872718",
+    "type": "movie",
+    "title": "Nightcrawler",
+    "year": 2014,
+    "genres": ["Crime", "Drama", "Thriller"],
+    "tags": ["media ethics", "sociopath", "LA nights", "news footage", "ambition"],
+    "director": "Dan Gilroy",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": false,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.76,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt2582802",
+    "type": "movie",
+    "title": "Whiplash",
+    "year": 2014,
+    "genres": ["Drama", "Music"],
+    "tags": ["drumming", "obsession", "mentor tormentor", "jazz", "competition"],
+    "director": "Damien Chazelle",
+    "vibe_flags": {
+      "slow_burn": false,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.8,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt1392190",
+    "type": "movie",
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "tags": ["post-apocalyptic", "car chases", "desert", "practical stunts", "feral energy"],
+    "director": "George Miller",
+    "vibe_flags": {
+      "slow_burn": false,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": false,
+      "experimental": false,
+      "surreal": true
+    },
+    "popularity_weight": 0.94,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt6751668",
+    "type": "movie",
+    "title": "Parasite",
+    "year": 2019,
+    "genres": ["Comedy", "Drama", "Thriller"],
+    "tags": ["class", "home invasion", "twists", "family scheme", "dark humor"],
+    "director": "Bong Joon Ho",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.93,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0353969",
+    "type": "movie",
+    "title": "Memories of Murder",
+    "year": 2003,
+    "genres": ["Crime", "Drama", "Mystery"],
+    "tags": ["rural police", "serial killer", "procedural", "rain", "ambiguous"],
+    "director": "Bong Joon Ho",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.8,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt5215952",
+    "type": "movie",
+    "title": "The Wailing",
+    "year": 2016,
+    "genres": ["Horror", "Mystery", "Thriller"],
+    "tags": ["possession", "small town", "folk horror", "investigation", "shaman"],
+    "director": "Na Hong-jin",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": true
+    },
+    "popularity_weight": 0.68,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt7784604",
+    "type": "movie",
+    "title": "Hereditary",
+    "year": 2018,
+    "genres": ["Drama", "Horror"],
+    "tags": ["grief", "possession", "family tragedy", "occult", "dread"],
+    "director": "Ari Aster",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": true
+    },
+    "popularity_weight": 0.8,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt4263482",
+    "type": "movie",
+    "title": "The Witch",
+    "year": 2015,
+    "genres": ["Drama", "Fantasy", "Horror"],
+    "tags": ["puritan", "folk horror", "isolated farm", "possession", "atmospheric"],
+    "director": "Robert Eggers",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": true
+    },
+    "popularity_weight": 0.64,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt3235888",
+    "type": "movie",
+    "title": "It Follows",
+    "year": 2014,
+    "genres": ["Horror", "Mystery", "Thriller"],
+    "tags": ["curse", "slow chase", "suburbs", "80s synth", "surreal threat"],
+    "director": "David Robert Mitchell",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": true
+    },
+    "popularity_weight": 0.62,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt8772262",
+    "type": "movie",
+    "title": "Midsommar",
+    "year": 2019,
+    "genres": ["Drama", "Horror"],
+    "tags": ["folk horror", "cult", "daylight dread", "breakup", "ritual"],
+    "director": "Ari Aster",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": true
+    },
+    "popularity_weight": 0.72,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt1856101",
+    "type": "movie",
+    "title": "Blade Runner 2049",
+    "year": 2017,
+    "genres": ["Sci-Fi", "Drama", "Thriller"],
+    "tags": ["replicants", "neo-noir", "memory", "desolate", "future mystery"],
+    "director": "Denis Villeneuve",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": true
+    },
+    "popularity_weight": 0.84,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt4975722",
+    "type": "movie",
+    "title": "Moonlight",
+    "year": 2016,
+    "genres": ["Drama"],
+    "tags": ["coming of age", "identity", "miami", "intimate", "triptych"],
+    "director": "Barry Jenkins",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.82,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt4925292",
+    "type": "movie",
+    "title": "Lady Bird",
+    "year": 2017,
+    "genres": ["Drama", "Comedy"],
+    "tags": ["coming of age", "sacramento", "mother daughter", "senior year", "slice of life"],
+    "director": "Greta Gerwig",
+    "vibe_flags": {
+      "slow_burn": false,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.78,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt5649144",
+    "type": "movie",
+    "title": "The Florida Project",
+    "year": 2017,
+    "genres": ["Drama"],
+    "tags": ["childhood", "motel life", "orlando", "tender", "poverty"],
+    "director": "Sean Baker",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.7,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt3783958",
+    "type": "movie",
+    "title": "La La Land",
+    "year": 2016,
+    "genres": ["Comedy", "Drama", "Music"],
+    "tags": ["musical", "dreamers", "romance", "jazz", "bittersweet"],
+    "director": "Damien Chazelle",
+    "vibe_flags": {
+      "slow_burn": false,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": false,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.86,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt1392214",
+    "type": "movie",
+    "title": "Prisoners",
+    "year": 2013,
+    "genres": ["Crime", "Drama", "Thriller"],
+    "tags": ["kidnapping", "rain", "moral choices", "detective", "pennsylvania"],
+    "director": "Denis Villeneuve",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": false,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.82,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt2267998",
+    "type": "movie",
+    "title": "Gone Girl",
+    "year": 2014,
+    "genres": ["Drama", "Mystery", "Thriller"],
+    "tags": ["missing person", "marriage", "twist", "media circus", "suburban"],
+    "director": "David Fincher",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": false,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.85,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt5362988",
+    "type": "movie",
+    "title": "Wind River",
+    "year": 2017,
+    "genres": ["Crime", "Drama", "Mystery"],
+    "tags": ["reservation", "tracking", "snow", "investigation", "frontier justice"],
+    "director": "Taylor Sheridan",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": false,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.72,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt2359024",
+    "type": "movie",
+    "title": "Blue Ruin",
+    "year": 2013,
+    "genres": ["Crime", "Drama", "Thriller"],
+    "tags": ["revenge", "amateur", "rustbelt", "quiet tension", "family blood feud"],
+    "director": "Jeremy Saulnier",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.48,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt4062536",
+    "type": "movie",
+    "title": "Green Room",
+    "year": 2015,
+    "genres": ["Crime", "Drama", "Horror"],
+    "tags": ["punk band", "siege", "backwoods", "survival", "neo-nazis"],
+    "director": "Jeremy Saulnier",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": false,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.56,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt11138512",
+    "type": "movie",
+    "title": "The Northman",
+    "year": 2022,
+    "genres": ["Action", "Adventure", "Drama"],
+    "tags": ["viking", "revenge saga", "mythic", "brutal", "visions"],
+    "director": "Robert Eggers",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": true
+    },
+    "popularity_weight": 0.74,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt11866324",
+    "type": "movie",
+    "title": "Prey",
+    "year": 2022,
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "tags": ["predator", "plains", "survival", "hunter", "minimal dialogue"],
+    "director": "Dan Trachtenberg",
+    "vibe_flags": {
+      "slow_burn": false,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": false,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.82,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt1160419",
+    "type": "movie",
+    "title": "Dune",
+    "year": 2021,
+    "genres": ["Adventure", "Drama", "Sci-Fi"],
+    "tags": ["epic", "desert planet", "prophecy", "house feuds", "visionary"],
+    "director": "Denis Villeneuve",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": true
+    },
+    "popularity_weight": 0.9,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt3315342",
+    "type": "movie",
+    "title": "Logan",
+    "year": 2017,
+    "genres": ["Action", "Drama", "Sci-Fi"],
+    "tags": ["neo-western", "fugitive", "found family", "mutants", "violent"],
+    "director": "James Mangold",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": false,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.88,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0245429",
+    "type": "movie",
+    "title": "Spirited Away",
+    "year": 2001,
+    "genres": ["Animation", "Adventure", "Family"],
+    "tags": ["spirit world", "coming of age", "fairy tale", "lush", "imaginative"],
+    "director": "Hayao Miyazaki",
+    "vibe_flags": {
+      "slow_burn": false,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": true
+    },
+    "popularity_weight": 0.9,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0851578",
+    "type": "movie",
+    "title": "Paprika",
+    "year": 2006,
+    "genres": ["Animation", "Sci-Fi", "Mystery"],
+    "tags": ["dreams", "surreal", "inventive", "tech", "double identity"],
+    "director": "Satoshi Kon",
+    "vibe_flags": {
+      "slow_burn": false,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": true,
+      "experimental": true,
+      "surreal": true
+    },
+    "popularity_weight": 0.64,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0113568",
+    "type": "movie",
+    "title": "Ghost in the Shell",
+    "year": 1995,
+    "genres": ["Animation", "Action", "Sci-Fi"],
+    "tags": ["cyberpunk", "identity", "a.i.", "philosophical", "future city"],
+    "director": "Mamoru Oshii",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": true
+    },
+    "popularity_weight": 0.7,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt1441395",
+    "type": "movie",
+    "title": "Under the Skin",
+    "year": 2013,
+    "genres": ["Drama", "Horror", "Sci-Fi"],
+    "tags": ["alien observer", "surreal", "minimal dialogue", "scotland", "mesmerizing"],
+    "director": "Jonathan Glazer",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": true,
+      "experimental": true,
+      "surreal": true
+    },
+    "popularity_weight": 0.58,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt0903747",
+    "type": "series",
+    "title": "Breaking Bad",
+    "year": 2008,
+    "genres": ["Crime", "Drama", "Thriller"],
+    "tags": ["antihero", "southwest", "drug trade", "transformation", "tense"],
+    "director": "Vince Gilligan",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": false,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.96,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt3032476",
+    "type": "series",
+    "title": "Better Call Saul",
+    "year": 2015,
+    "genres": ["Crime", "Drama"],
+    "tags": ["law", "con artist", "slow burn", "character study", "cartel"],
+    "director": "Vince Gilligan",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.9,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt2356777",
+    "type": "series",
+    "title": "True Detective",
+    "year": 2014,
+    "genres": ["Crime", "Drama", "Mystery"],
+    "tags": ["southern gothic", "detectives", "occult hints", "philosophical", "anthology"],
+    "director": "Nic Pizzolatto",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": true
+    },
+    "popularity_weight": 0.86,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt2802850",
+    "type": "series",
+    "title": "Fargo",
+    "year": 2014,
+    "genres": ["Crime", "Drama", "Thriller"],
+    "tags": ["anthology", "midwest noir", "quirky", "crime spiral", "ensemble"],
+    "director": "Noah Hawley",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.8,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt3230854",
+    "type": "series",
+    "title": "The Expanse",
+    "year": 2015,
+    "genres": ["Sci-Fi", "Drama", "Mystery"],
+    "tags": ["space politics", "belters", "hard sci-fi", "detective", "protomolecule"],
+    "director": "Mark Fergus",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": false,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.78,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt5753856",
+    "type": "series",
+    "title": "Dark",
+    "year": 2017,
+    "genres": ["Crime", "Drama", "Mystery"],
+    "tags": ["time loops", "small town", "german", "family tree", "apocalypse"],
+    "director": "Baran bo Odar",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": true,
+      "surreal": true
+    },
+    "popularity_weight": 0.84,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt4574334",
+    "type": "series",
+    "title": "Stranger Things",
+    "year": 2016,
+    "genres": ["Drama", "Fantasy", "Horror"],
+    "tags": ["80s", "kids on bikes", "parallel world", "monster", "nostalgia"],
+    "director": "The Duffer Brothers",
+    "vibe_flags": {
+      "slow_burn": false,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": false,
+      "experimental": false,
+      "surreal": true
+    },
+    "popularity_weight": 0.95,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt11280740",
+    "type": "series",
+    "title": "Severance",
+    "year": 2022,
+    "genres": ["Drama", "Mystery", "Sci-Fi"],
+    "tags": ["memory split", "corporate", "surreal office", "slow burn", "dystopia"],
+    "director": "Dan Erickson",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": true,
+      "surreal": true
+    },
+    "popularity_weight": 0.82,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt4635282",
+    "type": "series",
+    "title": "The OA",
+    "year": 2016,
+    "genres": ["Drama", "Fantasy", "Mystery"],
+    "tags": ["near death", "dimension hopping", "found family", "dance", "mythic"],
+    "director": "Zal Batmanglij",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": true,
+      "surreal": true
+    },
+    "popularity_weight": 0.62,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt7366338",
+    "type": "series",
+    "title": "Chernobyl",
+    "year": 2019,
+    "genres": ["Drama", "History", "Thriller"],
+    "tags": ["disaster", "soviet", "investigation", "radiation", "miniseries"],
+    "director": "Craig Mazin",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.86,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt6763664",
+    "type": "series",
+    "title": "The Haunting of Hill House",
+    "year": 2018,
+    "genres": ["Drama", "Horror", "Mystery"],
+    "tags": ["ghost story", "family trauma", "long takes", "slow dread", "ensemble"],
+    "director": "Mike Flanagan",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": true
+    },
+    "popularity_weight": 0.8,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt9253284",
+    "type": "series",
+    "title": "Andor",
+    "year": 2022,
+    "genres": ["Action", "Adventure", "Drama"],
+    "tags": ["rebellion", "heist", "spycraft", "grounded sci-fi", "slow burn"],
+    "director": "Tony Gilroy",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": false,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.8,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt3581920",
+    "type": "series",
+    "title": "The Last of Us",
+    "year": 2023,
+    "genres": ["Drama", "Horror", "Adventure"],
+    "tags": ["post-apocalyptic", "found family", "infected", "road", "character focus"],
+    "director": "Craig Mazin",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": false,
+      "arthouse": false,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.9,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt5290382",
+    "type": "series",
+    "title": "Mindhunter",
+    "year": 2017,
+    "genres": ["Crime", "Drama", "Thriller"],
+    "tags": ["profiling", "serial killers", "70s", "procedural", "quiet tension"],
+    "director": "Joe Penhall",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.78,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt7660850",
+    "type": "series",
+    "title": "Succession",
+    "year": 2018,
+    "genres": ["Comedy", "Drama"],
+    "tags": ["media dynasty", "power games", "satire", "family", "succession"],
+    "director": "Jesse Armstrong",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.86,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt10574236",
+    "type": "series",
+    "title": "Station Eleven",
+    "year": 2021,
+    "genres": ["Drama", "Fantasy", "Sci-Fi"],
+    "tags": ["post-pandemic", "traveling troupe", "gentle tone", "hopeful", "interwoven timelines"],
+    "director": "Patrick Somerville",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": true
+    },
+    "popularity_weight": 0.64,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt2699128",
+    "type": "series",
+    "title": "The Leftovers",
+    "year": 2014,
+    "genres": ["Drama", "Fantasy", "Mystery"],
+    "tags": ["rapture", "grief", "small town", "surreal", "character study"],
+    "director": "Damon Lindelof",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": false,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": true
+    },
+    "popularity_weight": 0.74,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt4158110",
+    "type": "series",
+    "title": "Mr. Robot",
+    "year": 2015,
+    "genres": ["Crime", "Drama", "Thriller"],
+    "tags": ["hacker", "revolution", "unreliable narrator", "mental health", "stylized"],
+    "director": "Sam Esmail",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": true,
+      "surreal": true
+    },
+    "popularity_weight": 0.82,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt4687880",
+    "type": "series",
+    "title": "Patriot",
+    "year": 2015,
+    "genres": ["Comedy", "Drama", "Thriller"],
+    "tags": ["sad spy", "midwest", "dry humor", "folk songs", "covert mission"],
+    "director": "Steven Conrad",
+    "vibe_flags": {
+      "slow_burn": true,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": false,
+      "surreal": false
+    },
+    "popularity_weight": 0.46,
+    "corpus_version": "v1"
+  },
+  {
+    "id": "tt2085059",
+    "type": "series",
+    "title": "Black Mirror",
+    "year": 2011,
+    "genres": ["Drama", "Sci-Fi", "Thriller"],
+    "tags": ["anthology", "tech caution", "speculative", "dark satire", "standalone"],
+    "director": "Charlie Brooker",
+    "vibe_flags": {
+      "slow_burn": false,
+      "extreme_violence": true,
+      "campy": false,
+      "ensemble": true,
+      "arthouse": true,
+      "experimental": true,
+      "surreal": true
+    },
+    "popularity_weight": 0.84,
+    "corpus_version": "v1"
+  }
+]
