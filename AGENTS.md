@@ -49,17 +49,25 @@ This section is your production map. When in doubt, return here, then cross-refe
 
 2. **Stremio SDK as Canon**  
    - For all protocol, manifest, and handler-shape questions, defer to the **official SDK knowledge via Context7**.  
-   - Use the MCP inspector to introspect the `/stremio/stremio-addon-sdk` context:  
+   - **Reliable, non-interactive access path (when inspector flags misbehave):** run the MCP server over stdio and send JSON-RPC directly. Example that fetches `/stremio/stremio-addon-sdk` docs:  
 
      ```bash
-     npx -y @modelcontextprotocol/inspector --cli npx @upstash/context7-mcp
+     # Cache override avoids ~/.npm EACCES; omit if not needed
+     npm_config_cache=$PWD/.npm-cache node -e "const { spawn } = require('child_process');
+     const env = { ...process.env, npm_config_cache: process.cwd() + '/.npm-cache' };
+     const proc = spawn('npx', ['-y', '@upstash/context7-mcp@latest'], { stdio:['pipe','pipe','inherit'], env });
+     proc.stdout.on('data', d => console.log(d.toString()));
+     // list tools
+     proc.stdin.write(JSON.stringify({ jsonrpc:'2.0', id:1, method:'tools/list' }) + '\\n');
+     // resolve Stremio SDK
+     proc.stdin.write(JSON.stringify({ jsonrpc:'2.0', id:2, method:'tools/call', params:{ name:'resolve-library-id', arguments:{ libraryName:'/stremio/stremio-addon-sdk' } } }) + '\\n');
+     // fetch docs
+     proc.stdin.write(JSON.stringify({ jsonrpc:'2.0', id:3, method:'tools/call', params:{ name:'get-library-docs', arguments:{ context7CompatibleLibraryID:'/stremio/stremio-addon-sdk', mode:'code' } } }) + '\\n');
+     setTimeout(() => proc.kill('SIGINT'), 4000);
+     "
      ```
 
-   - Within that inspector, ensure you are consulting the **`/stremio/stremio-addon-sdk` library** for:  
-     - Expected manifest structure  
-     - Catalog / meta / stream handler signatures  
-     - Accepted resource + type combinations  
-     - Any nuances around `extra` parameters and filters  
+   - If/when the CLI inspector `--params` flow stabilizes, you can use that instead, but the stdio JSON-RPC above consistently returns manifest shape, handler signatures, and `serveHTTP/getRouter` details.  
    - The guiding principle: **Humanifesto should always “speak in a language” the Stremio backend understands.** If the SDK and AGENTS.md ever appear to diverge, SDK structure wins; we then update our docs to match.
 
 3. **Branching & Workflow**  
