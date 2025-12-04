@@ -14,6 +14,9 @@
   <div class="bg-texture"></div>
   <header class="top-bar">
     <div class="top-bar__inner">
+      <div class="top-bar__brand">
+        <img src="/artwork/manifest_logo.png" alt="Humanifesto" class="top-bar__logo">
+      </div>
       <div class="top-bar__links">
         <a href="https://www.stremio.com/addon-sdk" target="_blank" rel="noreferrer">Stremio SDK Documentation</a>
         <a href="https://www.github.com/Huberdoggy/humanifesto" target="_blank" rel="noreferrer">View on Github</a>
@@ -23,7 +26,10 @@
 
   <main class="page">
     <section class="hero">
-      <img class="hero__logo" src="/artwork/humanifesto_logo_fullsize.png" alt="Humanifesto">
+      <div class="hero__artwrap">
+        <img class="hero__art" src="/artwork/hero_image.png" alt="Humanifesto ensemble">
+        <div class="hero__glow"></div>
+      </div>
       <div class="hero__copy">
         <h1>Humanifesto</h1>
         <p>Tell us what you loved. We’ll roll out a small, hand-picked list that matches the vibe — no accounts, no watchlist scraping.</p>
@@ -99,26 +105,8 @@
           </div>
           <div class="lineup">
             <div class="lineup__title">Tonight’s sample lineup</div>
-            <div class="lineup__item">
-              <div class="skeleton skeleton--title"></div>
-              <div class="chips">
-                <span class="chip">Thriller</span>
-                <span class="chip">Sci-Fi</span>
-              </div>
-            </div>
-            <div class="lineup__item">
-              <div class="skeleton skeleton--title"></div>
-              <div class="chips">
-                <span class="chip">Drama</span>
-                <span class="chip">Mystery</span>
-              </div>
-            </div>
-            <div class="lineup__item">
-              <div class="skeleton skeleton--title"></div>
-              <div class="chips">
-                <span class="chip">Horror</span>
-                <span class="chip">Folk</span>
-              </div>
+            <div class="lineup__items" id="lineupItems">
+              <div class="lineup__empty">Pick your genres to preview a sample lineup.</div>
             </div>
           </div>
         </div>

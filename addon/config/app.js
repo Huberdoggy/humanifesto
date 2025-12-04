@@ -36,6 +36,7 @@
   const resetBtn = document.getElementById("resetBtn");
   const manifestPreview = document.getElementById("manifestPreview");
   const modeSwitch = document.getElementById("modeSwitch");
+  const lineupItems = document.getElementById("lineupItems");
 
   function optionEl(value, label = value) {
     const opt = document.createElement("option");
@@ -71,6 +72,54 @@
     charCounter.textContent = `${state.seed.length} / 300`;
   }
 
+  function syncExcludeOptions() {
+    const selected = new Set([state.primaryGenre, state.secondaryGenre].filter(Boolean));
+    Array.from(excludeSelect.options).forEach((opt) => {
+      if (!opt.value) {
+        opt.disabled = false;
+      } else {
+        opt.disabled = selected.has(opt.value);
+        if (opt.disabled && opt.value === state.exclude) {
+          state.exclude = "";
+          excludeSelect.value = "";
+        }
+      }
+    });
+  }
+
+  function renderLineup(chips) {
+    lineupItems.innerHTML = "";
+    if (!chips.length) {
+      const empty = document.createElement("div");
+      empty.className = "lineup__empty";
+      empty.textContent = "Pick your genres to preview a sample lineup.";
+      lineupItems.appendChild(empty);
+      return;
+    }
+
+    const item = document.createElement("div");
+    item.className = "lineup__item";
+    const chipWrap = document.createElement("div");
+    chipWrap.className = "chips";
+    chips.forEach((g) => {
+      const chip = document.createElement("span");
+      chip.className = "chip";
+      chip.textContent = g;
+      chipWrap.appendChild(chip);
+    });
+    item.appendChild(chipWrap);
+    lineupItems.appendChild(item);
+  }
+
+  function buildLineup() {
+    const chips = [state.primaryGenre, state.secondaryGenre]
+      .filter(Boolean)
+      .filter((g) => g !== state.exclude);
+
+    const unique = Array.from(new Set(chips)).slice(0, 2);
+    renderLineup(unique);
+  }
+
   function setMode(mode) {
     state.mode = mode;
     Array.from(modeSwitch.querySelectorAll(".segmented__option")).forEach((btn) => {
@@ -82,15 +131,33 @@
   function attachListeners() {
     primarySelect.addEventListener("change", (e) => {
       state.primaryGenre = e.target.value;
+      if (state.exclude === state.primaryGenre) {
+        state.exclude = "";
+        excludeSelect.value = "";
+      }
+      syncExcludeOptions();
       updatePreview();
+      buildLineup();
     });
     secondarySelect.addEventListener("change", (e) => {
       state.secondaryGenre = e.target.value;
+      if (state.exclude === state.secondaryGenre) {
+        state.exclude = "";
+        excludeSelect.value = "";
+      }
+      syncExcludeOptions();
       updatePreview();
+      buildLineup();
     });
     excludeSelect.addEventListener("change", (e) => {
       state.exclude = e.target.value;
+      if (state.exclude === state.primaryGenre || state.exclude === state.secondaryGenre) {
+        state.exclude = "";
+        excludeSelect.value = "";
+      }
+      syncExcludeOptions();
       updatePreview();
+      buildLineup();
     });
     seedInput.addEventListener("input", (e) => {
       state.seed = e.target.value.slice(0, 300);
@@ -144,15 +211,19 @@
       state.exclude = "";
       state.seed = "";
       setMode("canon");
+      syncExcludeOptions();
       manifestPreview.classList.remove("manifest-preview--active");
       updatePreview();
+      buildLineup();
     });
   }
 
   function init() {
     populateSelects();
+    syncExcludeOptions();
     attachListeners();
     updatePreview();
+    buildLineup();
   }
 
   init();

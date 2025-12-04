@@ -18,6 +18,12 @@ app.use(
 app.use(
   "/config",
   express.static(path.join(__dirname, "config"), {
+    maxAge: 0
+  })
+);
+app.use(
+  "/corpus",
+  express.static(path.join(__dirname, "corpus"), {
     maxAge: "1d"
   })
 );
